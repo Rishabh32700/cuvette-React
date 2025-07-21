@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Comp2 from './Comp2'
 
 const Comp1 = () => {
     const [currentTask, setCurrentTask] = useState("")
@@ -48,6 +49,8 @@ const Comp1 = () => {
                     })
                 }
             </ul>
+
+            <Comp2></Comp2>
         </div>
     )
 }
